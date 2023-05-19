@@ -1,0 +1,42 @@
+empno=int(input("Enter empno:"))
+empname=input("Enter empname")
+empdesignation=input("Enter empdeignation")
+basicsal=int(input("Enter basicsal"))
+hra=int(input("Enter hra"))
+ta=int(input("Enter ta"))
+da=int(input("Enter da"))
+insurance=int(input("Enter insurance"))
+netsalary=basicsal+hra+da+ta-insurance
+print 'empno:',empno
+print 'empname:',empname
+print 'empdesignation:',empdesignation
+print 'basicsal:',basicsal
+print 'hra:',hra
+print 'ta:',ta
+print 'da:',da
+print 'insurance:',insurance
+print 'netsalary:',netsalary
+
+Output:
+Python 2.7 (r27:82525, Jul  4 2010, 07:43:08) [MSC v.1500 64 bit (AMD64)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> ================================ RESTART ================================
+>>> 
+Enter empno:101
+Enter empname'Anvesh'
+Enter empdeignation'AGM'
+Enter basicsal82000
+Enter hra4000
+Enter ta2100
+Enter da2800
+Enter insurance4000
+empno: 101
+empname: Anvesh
+empdesignation: AGM
+basicsal: 82000
+hra: 4000
+ta: 2100
+da: 2800
+insurance: 4000
+netsalary: 86900
+>>> 
