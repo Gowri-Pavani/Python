@@ -1,0 +1,49 @@
+#program to print given student is pass or fail
+
+sno=int(input("Enter student number"))
+sname=input("Enter student name")
+s1=int(input("Enter maths marks:"))
+s2=int(input("Enter phy marks:"))
+s3=int(input("Enter computer marks:"))
+print("studentnumber:",sno)
+print("student name:",sname)
+print("maths:",s1)
+print("phy:",s2)
+print("computer:",s3)
+if(s1>=35 and s2>=35 and s3>=35):
+   print(" student is pass")
+else:
+   print("student is fail")
+
+output1:Python 2.7 (r27:82525, Jul  4 2010, 09:01:59) [MSC v.1500 32 bit (Intel)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> ================================ RESTART ================================
+>>> 
+Enter student number10
+Enter student name'Anvesh'
+Enter maths marks:90
+Enter phy marks:80
+Enter computer marks:70
+studentnumber: 10
+student name: 'Anvesh'
+maths: 90
+phy: 80
+computer: 70
+ student is pass
+>>> 
+output2:Python 2.7 (r27:82525, Jul  4 2010, 09:01:59) [MSC v.1500 32 bit (Intel)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> ================================ RESTART ================================
+>>> 
+Enter student number11
+Enter student name'ramya'
+Enter maths marks:20
+Enter phy marks:50
+Enter computer marks:70
+studentnumber: 11
+student name: 'ramya'
+maths: 20
+phy:50
+computer:70
+student is fail
+>>> 
