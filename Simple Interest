@@ -1,0 +1,17 @@
+#program to calculate Simple Intrest
+principle=int(input('Enter Principle Amount:'))
+rateofintrest=int(input('Enter Rate Of Intrest:'))
+time=int(input('Enter time'))
+si=float(principle*rateofintrest*time/100)
+print('Simple intrest:',si)
+
+output:
+Python 2.7 (r27:82525, Jul  4 2010, 09:01:59) [MSC v.1500 32 bit (Intel)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> ================================ RESTART ================================
+>>> 
+Enter Principle Amount:10000
+Enter Rate Of Intrest:4
+Enter time10
+Simple intrest: 4000.0
+>>> 
