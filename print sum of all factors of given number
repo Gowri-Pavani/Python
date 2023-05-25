@@ -12,7 +12,7 @@ while(i<=n):
 print(s)
 
 Output:
-= RESTART: C:/Users/LAB 1 SYS 20/AppData/Local/Programs/Python/Python38/4564.py
+= RESTART: C:/Users/LAB 1 SYS 20/AppData/Local/Programs/Python/Python38/factors.py
 enter n value10
 1
 2
