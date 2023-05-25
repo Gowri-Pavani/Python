@@ -10,7 +10,7 @@ while i<=n:
     
     
 Output:
-= RESTART: C:/Users/LAB 1 SYS 20/AppData/Local/Programs/Python/Python38/4564.py
+= RESTART: C:/Users/LAB 1 SYS 20/AppData/Local/Programs/Python/Python38/series.py
 10
 1 4 27 256 3125 46656 823543 16777216 387420489 10000000000 
 >>> 
