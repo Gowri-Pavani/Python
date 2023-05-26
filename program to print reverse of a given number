@@ -1,0 +1,18 @@
+write a program to print reverse of a given number
+
+n=int(input('enter n value:'))
+k=n
+r=0
+while n>0:
+    rem=n%10
+    r=(r*10)+rem
+    n=n//10
+print(r)
+
+
+Output:
+>>> ================================ RESTART ================================
+>>> 
+enter n value:12345
+54321
+>>> 
