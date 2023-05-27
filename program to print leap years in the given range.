@@ -1,0 +1,22 @@
+write a program to print leap years in the given range.
+Input:
+2000
+2009
+Output: 2000 2004 2004
+
+
+for year in range(2000,2010):
+    
+    if(year %400 == 0 or year%4 == 0 and year%100 != 0 ):
+        print(year)
+
+
+Output:
+Python 2.7 (r27:82525, Jul  4 2010, 09:01:59) [MSC v.1500 32 bit (Intel)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> ================================ RESTART ================================
+>>> 
+2000
+2004
+2008
+>>> 
