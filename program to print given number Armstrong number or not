@@ -1,0 +1,31 @@
+write a program to print given number Armstrong number or not
+
+n=int(input('enter n value'))
+temp=n
+s=0
+i=0
+while(n>0):
+  r=n%10
+  s=s+(r*r*r)
+  n=n/10
+if(s==temp):
+   print("Given number is armstrong")
+else:
+   print("Given number is not armstrong")
+    
+Output:
+Python 2.7 (r27:82525, Jul  4 2010, 09:01:59) [MSC v.1500 32 bit (Intel)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> ================================ RESTART ================================
+>>> 
+enter n value153
+Given number is armstrong
+>>> 
+-------------------------------------------------------------------------------
+Python 2.7 (r27:82525, Jul  4 2010, 09:01:59) [MSC v.1500 32 bit (Intel)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> ================================ RESTART ================================
+>>> 
+enter n value5
+Given number is not armstrong
+>>> 
