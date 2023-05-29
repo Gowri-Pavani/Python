@@ -1,4 +1,4 @@
-Write a progaram to print count of leap years from the given range
+Write a program to print count of leap years from the given range
 def test(r_years):
  start_year, end_year = map(int, r_years.split(' '))
  return sum(is_leap_year(year) for year in range(start_year, end_year+1))
